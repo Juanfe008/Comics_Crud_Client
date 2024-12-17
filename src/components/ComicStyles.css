@@ -1,0 +1,119 @@
+/* Contenedor principal */
+div {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+}
+
+/* Encabezado */
+h1 {
+    text-align: center;
+    color: #1eac0f;
+    margin-bottom: 15px;
+}
+
+/* Encabezado */
+h2 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+/* Lista de cómics */
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: black;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white; /* Texto en blanco por defecto */
+}
+
+li button:nth-child(2) { /* Botón de Editar */
+    background-color: #ffc107; /* Amarillo */
+}
+
+li button:nth-child(2):hover {
+    background-color: #e0a800; /* Amarillo más oscuro */
+}
+
+li button:nth-child(3) { /* Botón de Eliminar */
+    background-color: #dc3545; /* Rojo */
+}
+
+li button:nth-child(3):hover {
+    background-color: #c82333; /* Rojo más oscuro */
+}
+
+
+/* Estilos para el formulario */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+}
+
+form h2 {
+    text-align: center;
+    color: #333;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
